@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>create an account</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Registration Form</h1>
+      <form action="">
+        <div>
+          <br />
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="#"
+            placeholder="이름을 작성해 주세요"
+            required
+          />
+          <div>
+            <label for="phonenumber">Phone Number</label>
+            <input
+              type="text"
+              name="#"
+              id="phonenumber"
+              placeholder="핸드폰 번호를 작성해주세요"
+            />
+          </div>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="#"
+            id="email"
+            placeholder="이메일을 작성해주세요"
+            required
+          />
+        </div>
+        <div>
+          <label for="password">password</label>
+          <input
+            type="password"
+            name="#"
+            id="password"
+            placeholder="비밀번호를 작성해주세요"
+            required
+          />
+          
+        </div>
+        <p>Gender</p>
+        <div>
+          <input type="radio" name="#" id="girl" />
+          <label for="girl">girl</label>
+          &nbsp; &nbsp;  &nbsp;
+          <input type="radio" name="#" id="boy" />
+          <label for="boy">boy</label>
+        </div>
+
+        <div>
+          <label for="country">Country</label>
+          <select name="#" id="country">
+            <option value="reading">Korea</option>
+            <option value="game">Japan</option>
+            <option value="exercise">China</option>
+          </select>
+        </div>
+        <button>LOGIN</button>
+      </form>
+    </section>
+  </body>
+</html>
